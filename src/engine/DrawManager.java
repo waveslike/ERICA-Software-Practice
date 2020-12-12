@@ -312,19 +312,19 @@ public final class DrawManager {
 		String highScoresString = "NORMAL";
 		String exitString = "HARD";
 
-		if (option == 2)
+		if (option == 4)
 			backBufferGraphics.setColor(Color.GREEN);
 		else
 			backBufferGraphics.setColor(Color.WHITE);
 		drawCenteredRegularString(screen, playString,
 				screen.getHeight() / 3 * 2);
-		if (option == 3)
+		if (option == 5)
 			backBufferGraphics.setColor(Color.GREEN);
 		else
 			backBufferGraphics.setColor(Color.WHITE);
 		drawCenteredRegularString(screen, highScoresString, screen.getHeight()
 				/ 3 * 2 + fontRegularMetrics.getHeight() * 2);
-		if (option == 0)
+		if (option == 6)
 			backBufferGraphics.setColor(Color.GREEN);
 		else
 			backBufferGraphics.setColor(Color.WHITE);
