@@ -74,6 +74,7 @@ public class GameScreen extends Screen {
 	private boolean paused;
 
 	public static boolean gotoMain = false;
+	public static boolean formatLevel = false;
 
 	/**
 	 * Constructor, establishes the properties of the screen.
@@ -168,7 +169,14 @@ public class GameScreen extends Screen {
 				this.gotoMain = true;
 				this.isRunning = false;
 			}
+			else if(inputManager.isKeyDown(KeyEvent.VK_R)) {
+				this.lives = 0;
+				this.formatLevel = true;
+				this.isRunning = false;
+			}
 		}
+
+
 
 		if (this.inputDelay.checkFinished() && !this.levelFinished && !this.paused) {
 

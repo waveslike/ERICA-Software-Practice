@@ -43,7 +43,7 @@ public class PauseScreen extends Screen{
                 System.out.println("Enter");
                 this.returnCode = 2;
                 this.isRunning = false;
-            }else{
+            } else {
                 System.out.println("ESC");
                 this.returnCode = 1;
                 this.isRunning = false;

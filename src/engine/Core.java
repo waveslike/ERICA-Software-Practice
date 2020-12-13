@@ -155,8 +155,11 @@ public final class Core {
 
 				} while (gameState.getLivesRemaining() > 0
 						&& gameState.getLevel() <= NUM_LEVELS && !GameScreen.gotoMain);
-
-				if(!GameScreen.gotoMain) {
+				if (GameScreen.formatLevel) {
+					GameScreen.formatLevel = false;
+					returnCode = 2;
+				}
+				else if(!GameScreen.gotoMain) {
 					LOGGER.info("Starting " + WIDTH + "x" + HEIGHT
 							+ " score screen at " + FPS + " fps, with a score of "
 							+ gameState.getScore() + ", "
@@ -167,7 +170,8 @@ public final class Core {
 					returnCode = frame.setScreen(currentScreen);
 
 					LOGGER.info("Closing score screen.");
-				}else{
+				}
+				else{
 					GameScreen.gotoMain = false;
 					currentScreen = new TitleScreen(width,height,FPS);
 					returnCode = frame.setScreen(currentScreen);
