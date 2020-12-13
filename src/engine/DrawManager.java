@@ -572,10 +572,11 @@ public final class DrawManager {
 		backBufferGraphics.setColor(Color.MAGENTA);
 		drawCenteredBigString(screen, "PAUSE",
 				screen.getHeight() / 2
-						+ fontBigMetrics.getHeight() / 3);
+						+ fontBigMetrics.getHeight() / 24);
 
 		backBufferGraphics.setColor(Color.WHITE);
-		drawCenteredRegularString(screen, "GOTO MAIN [ ENTER ]", screen.getHeight() / 2 + fontBigMetrics.getHeight() / 3 + 30);
-		drawCenteredRegularString(screen, "RETURN GAME [ ESC ]", screen.getHeight() / 2 + (fontBigMetrics.getHeight() / 3 + 30) + (fontBigMetrics.getHeight() / 3 + 15));
+		drawCenteredRegularString(screen, "GOTO MAIN [ ENTER ]", screen.getHeight() / 2 + fontBigMetrics.getHeight() / 3 + 15);
+		drawCenteredRegularString(screen, "RETURN GAME [ ESC ]", screen.getHeight() / 2 + (fontBigMetrics.getHeight() / 3 + 15) + (fontBigMetrics.getHeight() / 3 + 15));
+		drawCenteredRegularString(screen, "RESET GAME [ R ]", screen.getHeight() / 2 + (fontBigMetrics.getHeight() / 3 + 15) + (fontBigMetrics.getHeight() / 3 + 15) + (fontBigMetrics.getHeight() / 3 + 15));
 	}
 }

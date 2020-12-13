@@ -1,0 +1,20 @@
+[INFO|6:38:20]: Started loading resources. 
+[FINE|6:38:20]: Sprite Ship loaded. 
+[FINE|6:38:20]: Sprite ShipDestroyed loaded. 
+[FINE|6:38:20]: Sprite Bullet loaded. 
+[FINE|6:38:20]: Sprite EnemyBullet loaded. 
+[FINE|6:38:20]: Sprite EnemyShipA1 loaded. 
+[FINE|6:38:20]: Sprite EnemyShipA2 loaded. 
+[FINE|6:38:20]: Sprite EnemyShipB1 loaded. 
+[FINE|6:38:20]: Sprite EnemyShipB2 loaded. 
+[FINE|6:38:20]: Sprite EnemyShipC1 loaded. 
+[FINE|6:38:20]: Sprite EnemyShipC2 loaded. 
+[FINE|6:38:20]: Sprite EnemyShipSpecial loaded. 
+[FINE|6:38:20]: Sprite Explosion loaded. 
+[FINE|6:38:20]: Sprite Spaceship loaded. 
+[INFO|6:38:20]: Finished loading the sprites. 
+[INFO|6:38:20]: Finished loading the fonts. 
+[INFO|6:38:20]: Starting 448x520 title screen at 60 fps. 
+[INFO|6:38:22]: Closing title screen. 
+[INFO|6:38:22]: Starting 448x520 game screen at 60 fps. 
+[INFO|6:38:22]: Initializing 5x4 ship formation in (20,100) 
